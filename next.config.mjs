@@ -4,8 +4,8 @@ const nextConfig = {
   output: "export",
   basePath: "",
   images: {
-    unoptimized: true,
-    path: "https://kaikookim.github.io/kai/",
+    loader: "custom",
+    loaderFile: "./app/util/imageLoader.tsx",
   },
 };
 

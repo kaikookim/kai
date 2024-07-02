@@ -2,7 +2,7 @@
 
 const nextConfig = {
   output: "export",
-  basePath: "/kai",
+  basePath: "",
   images: {
     unoptimized: true,
   },

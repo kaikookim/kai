@@ -5,6 +5,7 @@ const nextConfig = {
   basePath: "",
   images: {
     unoptimized: true,
+    path: "https://kaikookim.github.io/kai/",
   },
 };
 

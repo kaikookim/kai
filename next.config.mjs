@@ -3,9 +3,14 @@
 const nextConfig = {
   output: "export",
   basePath: "",
+  reactStrictMode: false,
   images: {
-    loader: "custom",
-    loaderFile: "./app/util/imageLoader.tsx",
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "*",
+      },
+    ],
   },
 };
 
